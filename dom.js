@@ -10,4 +10,12 @@ console.log(document.doctype)
 console.log(document.all[1])
 console.log(document.getElementById("items"))
 var item= document.getElementsByClassName("list-group")
-console.log(items)
+console.log(item)
+<li>Item5</li>
+
+var tag_item= document.getElementsByTagName('li')
+tag_item[3].textContent= "Hello Babe"
+var x = document.createElement("LI")
+x.textContent= "where is it"
+
+console.log(x)
