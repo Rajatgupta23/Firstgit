@@ -11,7 +11,6 @@ console.log(document.all[1])
 console.log(document.getElementById("items"))
 var item= document.getElementsByClassName("list-group")
 console.log(item)
-<li>Item5</li>
 
 var tag_item= document.getElementsByTagName('li')
 tag_item[3].textContent= "Hello Babe"
